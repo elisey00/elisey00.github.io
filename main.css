@@ -33,8 +33,7 @@
     color: white;
 }
     
-ol
-    {
+ol {
        display: inline-block;
        margin-left: auto;
        margin-right: auto;
@@ -47,6 +46,23 @@ ol
         padding-left: inherit; /*Get rid of padding to center correctly*/
     }
     ol.text-center > li::before {
+        content: "\A";
+        white-space: pre;
+    }
+
+ul {
+       display: inline-block;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .text-center {
+        text-align: center;
+    }
+    ul.text-center {
+        list-style-position: inside;
+        padding-left: inherit; /*Get rid of padding to center correctly*/
+    }
+    ul.text-center > li::before {
         content: "\A";
         white-space: pre;
     }
