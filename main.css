@@ -2,6 +2,7 @@
 
 
 .titles{
+}
     
 
 /* Add a black background color to the top navigation */
@@ -49,3 +50,4 @@ ol
         content: "\A";
         white-space: pre;
     }
+}
